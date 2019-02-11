@@ -1,4 +1,4 @@
-package com.czy.server;
+package leavesc.hello.server;
 
 import org.junit.Test;
 

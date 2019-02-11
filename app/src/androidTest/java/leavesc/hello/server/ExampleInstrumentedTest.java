@@ -1,4 +1,4 @@
-package com.czy.server;
+package leavesc.hello.server;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

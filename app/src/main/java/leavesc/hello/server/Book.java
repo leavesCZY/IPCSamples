@@ -1,18 +1,20 @@
-package com.czy.server;
+package leavesc.hello.server;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * 作者：叶应是叶
+ * 作者：leavesC
  * 时间：2017/8/25 23:31
  * 描述：
+ * GitHub：https://github.com/leavesC
+ * Blog：https://www.jianshu.com/u/9df45b87cfdf
  */
 public class Book implements Parcelable {
 
     private String name;
 
-    public Book(){
+    public Book() {
 
     }
 

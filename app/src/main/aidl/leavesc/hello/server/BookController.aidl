@@ -1,5 +1,6 @@
-package com.czy.server;
-import com.czy.server.Book;
+package leavesc.hello.server;
+
+import leavesc.hello.server.Book;
 
 interface BookController {
 
