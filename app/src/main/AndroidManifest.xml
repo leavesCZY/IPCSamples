@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="leavesc.hello.server">
+    package="leavesc.hello.ipc">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="leavesc.hello.server.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,14 +20,8 @@
         </activity>
 
         <service
-            android:name="leavesc.hello.server.AIDLService"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="leavesc.hello.server.action" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </service>
+            android:name=".MyService"
+            android:process="leavesc.hello.process.test" />
     </application>
 
 </manifest>
